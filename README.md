@@ -54,7 +54,7 @@ Save the file and close your editor.
 
 The next part may be done in a different way but this is what I did....
 
- - find /etc/rc* -name '*domo*'
+ - find /etc/rc* -name '\*domo\*'
 
 Now you have an overview of all S01 (start) and K01 (kill) scripts for all runlevels.
 These are not real scripts but links to /etc/init.d/domoticz.sh.
