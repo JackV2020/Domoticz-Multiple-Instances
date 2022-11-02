@@ -90,7 +90,7 @@ cd /etc/rc6.d
 
 ln -s ../init.d/Second_domoticz.sh K01Second_domoticz.sh
 
- - find /etc/rc* -name '*domo*'
+ - find /etc/rc* -name '\*domo\*'
 
 Now you should have a list with all S01 and K01 scripts for all runlevels for both domoticz services.
 
